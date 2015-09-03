@@ -1,19 +1,12 @@
 {
-    // package name
     "name": "casinho/yii2-cropper-widget",
     "version": "0.0.1",
     "main": "dist/cropper.js",
-    // package type
     "type": "yii2-extension",
-
     "description": "Wrapper for Jquery Cropper",
     "keywords": ["yii2", "crop", "image", "cropper"],
     "license": "BSD-3-Clause",
     "support": {
-        //"issues": "https://github.com/yiisoft/yii2/issues?labels=ext%3Aimagine",
-        //"forum": "",
-        //"wiki": "",
-        //"irc": "",
         "source": "https://github.com/casinho/yii2-cropper-widget"
     },
     "author": [
@@ -29,11 +22,8 @@
     "bugs": {
       "url": "https://github.com/fengyuanchen/cropper/yii2-cropper-widget"
     },
-
-    // package dependencies
     "dependencies": {
       "@fengyuanchen/tooltip": "0.0.2",
       "jquery": ">= 1.9.1"
     },
-
 }
