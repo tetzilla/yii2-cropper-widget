@@ -24,5 +24,10 @@
     },
     "require": {
       "jquery": ">= 1.9.1"
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "casinho\\cropper\\": ""
+        }
+    }        
 }
