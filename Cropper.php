@@ -49,21 +49,26 @@ class Cropper extends Widget {
     public $cropButtons = [];
 
     public $defaultCropButtons = [
+	[
 		'move' => [
 			['data-method' => 'move','data-option'=>'setDragMode','title'=>'Move'],
 		],
-		'move' => [
+		'crop' => [
 			['data-method' => 'crop','data-option'=>'setDragMode','title'=>'Crop'],
-		],		
-    
-		'zoom' => [
+		],
+	],
+	[
+    		'zoom' => [
 			['data-method' => 'zoom','data-option'=>'0.1', 'title'=>'Zoom in'],
 			['data-method' => 'zoom','data-option'=>'-0.1', 'title'=>'Zoom out'],
 		],
+	],
+	[
 		'reset' => [
 			['data-method' => 'reset','title'=>'Reset'],
 		],
 		'upload' => true,
+	]
     ];    
 
     /**
