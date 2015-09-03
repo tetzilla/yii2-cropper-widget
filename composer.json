@@ -22,7 +22,7 @@
     "bugs": {
       "url": "https://github.com/fengyuanchen/cropper/yii2-cropper-widget"
     },
-    "dependencies": {
+    "require": {
       "@fengyuanchen/tooltip": "0.0.2",
       "jquery": ">= 1.9.1"
     },
