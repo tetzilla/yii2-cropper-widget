@@ -23,7 +23,9 @@
       "url": "https://github.com/fengyuanchen/cropper/yii2-cropper-widget"
     },
     "require": {
-      "jquery": ">= 1.9.1"
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "bower-asset/cropper": "*"
     },
     "autoload": {
         "psr-4": {
