@@ -1,6 +1,6 @@
 <?php
 
-namespace demi\cropper;
+namespace casinho\cropper;
 
 use yii\web\AssetBundle;
 
