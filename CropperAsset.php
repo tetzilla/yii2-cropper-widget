@@ -13,13 +13,21 @@ use yii\web\AssetBundle;
 class CropperAsset extends AssetBundle
 {
     public $sourcePath = '@bower';
-    public $css = [
-        YII_DEBUG ? 'cropper/dist/cropper.css' : 'cropper/dist/cropper.min.css',
-    ];
-    public $js = [
-        YII_DEBUG ? 'cropper/dist/cropper.js' : 'cropper/dist/cropper.min.css',
-    ];
+				
     public $depends = [
         'yii\web\JqueryAsset',
     ];
+    
+    public function init() {
+    	
+    	$this->css = [
+			'cropper/dist/cropper'.(!YII_DEBUG ? '.min' : '') . '.css'
+		];
+    	$this->js = [
+			'cropper/dist/cropper'.(!YII_DEBUG ? '.min' : '') . '.js'
+		];
+    	
+    }
+    
 }
+?>
