@@ -25,7 +25,7 @@
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-        "bower-asset/cropper": "*",
+        "bower-asset/cropper": "*"
     },
     "autoload": {
         "psr-4": {
