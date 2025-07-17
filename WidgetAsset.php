@@ -3,6 +3,7 @@
 namespace casinho\cropper;
 
 use yii\web\AssetBundle;
+use Yii;
 
 /**
  * Core assets of widget.
