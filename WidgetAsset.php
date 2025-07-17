@@ -21,5 +21,17 @@ class WidgetAsset extends AssetBundle
     public $depends = [
         'casinho\cropper\CropperAsset',
     ];
+
+    /**
+     * @inheritdoc
+     */
+    public function init() {
+        // Registriere den Alias für den Pfad zu den Assets
+        if(!Yii::getAlias('@casinho/cropper', false)) {
+            Yii::setAlias('@casinho/cropper', __DIR__);
+        }
+        parent::init();
+    }
+    
 }
 ?>
